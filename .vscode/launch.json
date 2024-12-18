@@ -1,0 +1,24 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "d:/OneDrive - UNIVERSIDAD ALICANTE/UA/UA-Desarrollo_Colaborativo_de_Aplicaciones/Prácticas/Practica 9/dca_prueba",
+      "program": "d:/OneDrive - UNIVERSIDAD ALICANTE/UA/UA-Desarrollo_Colaborativo_de_Aplicaciones/Prácticas/Practica 9/dca_prueba/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
